@@ -1,0 +1,42 @@
+{
+  "name": "skydiver/laravel-check-updates",
+  "description": "Check Laravel updates from your command line",
+  "keywords": [
+    "laravel",
+    "package",
+    "updates",
+    "check-updates"
+  ],
+  "homepage": "https://github.com/skydiver/laravel-check-updates",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Martín M.",
+      "email": "skydiver@users.noreply.github.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "composer/semver": "^1.0",
+    "illuminate/support": ">=6.0",
+    "knplabs/packagist-api": "^1.5",
+    "paquettg/php-html-parser": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Skydiver\\LaravelCheckUpdates\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Skydiver\\LaravelCheckUpdates\\LaravelCheckUpdatesServiceProvider"
+      ]
+    }
+  }
+}
