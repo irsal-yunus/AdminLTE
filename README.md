@@ -1,8 +1,8 @@
-## Laravel AdminLTE Demo APPS 
+## Laravel AdminLTE Demo export excel , csv , pdf dan print
 
 Untuk Melakukan Instalasi Laravel-AdminLTE SBB : 
 
--lakukan git clone sbb : git clone https://github.com/adinata-id/laravel-adminlte.git
+-lakukan git clone sbb : git clone https://github.com/irsal-yunus/AdminLTE.git
 
 -lalu permision folder di server sbb : sudo chmod -R 755 laravel-adminlte ( sesuaikan dengan nama folder di webserver anda disini saya menggunakan nama laravel-adminlte)
 
@@ -11,16 +11,14 @@ Untuk Melakukan Instalasi Laravel-AdminLTE SBB :
 -setelah itu masuk ke directory folder dan install dependency yang dibutuhkan dengan cara : composer install
 
 -lalu copy file .env dari laptop anda ( bisa pakai .env default laravel ) ke server jika anda deploy ke server jika tidak cukup buat di laptop / pc anda...
+-jalan php artisan migrate untuk membuat user secara otomatis
+-jln php artisan tinker untuk mejalankan class insert product
+-setelah data sudah jalan perintah php artisan serve untuk mengakses web
 
-## Dapatkan Tips Seputar Pemograman DI Blog Saya :
-- [Blog Saya : www.adinata.id](https://adinata.id).
-
-## Fitur Demo Yang Terdapat Di Aplikasi ini : 
-- [Integrasi Dengan Jquery Datatables :](https://adinata.id/laravel/integrasi-laravel-dengan-jquery-datables-adminlte).
 
 
 ## Semoga Bermanfaat 
 ## Salam, 
 
-## Adinata
+
 
